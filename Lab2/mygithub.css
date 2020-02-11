@@ -1,0 +1,129 @@
+body{
+	margin: 0;
+	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+}
+.container{
+	display: block;
+}
+.header1{
+	background-color: #262626;
+}
+.header{
+	display: flex;
+}
+.header img{
+	height: 40px;
+	width: auto;
+	margin: 20px 20px 20px 45px;
+}
+.header span{
+	font-size: 16px;
+	margin: 30px 10px;
+	color: white;
+}
+.header input{
+	background-color:  #404040;
+	margin-top: 25px;
+	margin-left: 400px; 
+	height: 30px;
+	width: 200px;
+	padding-left: 10px;
+	border-radius: 4px 4px 4px 4px;
+	font-size: 14px;
+	text-decoration-color: #b3b3b3;
+	border: 1px solid #262626;
+}
+.signin{
+	color: white;
+	margin-top: 30px;
+	margin-left: 20px;
+	font-size: 16px;
+	text-decoration: none;
+}
+.signup{
+	color: white;
+	border: 1px solid white;
+	margin-top: 25px;
+	height: 22px;
+	font-size: 16px;
+	margin-left: 20px; 
+	padding: 5px 5px 5px 5px;
+	text-decoration: none;
+	border-radius: 5px 5px 5px 5px;
+}
+.main{
+	display: flex;
+	background-color: #333333;
+	height: 650px;
+}
+.main-left h1{
+	margin-top: 130px;
+	margin-left: 180px;
+	margin-bottom: 20px;
+	color: white;
+	font-size: 64px;
+	width: 505px;
+	font-weight: 450;
+}
+.main-left p{
+	color: hsla(0,0%,100%,.6);
+	font-size: 20px;
+	width: 505px;
+	margin-left: 180px;
+}
+.main-right{
+	display: block;
+}
+.main-right1{
+	border: 1px solid white;
+	border-radius: 3px 3px 3px 3px;
+	background-color: white;
+	height: 523px;
+	width: 427px;
+	margin-left: 55px;
+	margin-top: 65px;
+} 
+.label1{
+	margin-top: 20px;
+}
+.main-right1 label{
+	color: #24292E;
+	font-size: 14px;
+	font-weight: 600;
+	margin-left: 25px;
+	margin-top: 5px;
+}
+.main-right input{
+	border: 1px solid  #a6a6a6;
+	font-size: 16px;
+	padding: 6px;
+	height: 40px;
+	width: 360px;
+	margin: 10px 0;
+	margin-left: 25px;
+	border-radius: 3px 3px 3px 3px;
+}
+.password-info{
+	font-size: 12px;
+	margin-left: 25px;
+	width: 378px;
+	color: #24292E;
+}
+.main-right button{
+	color: white;
+	font-size: 16px;
+	background-color: #2ebc4f;
+	border-radius: 3px 3px 3px 3px;
+	border: 1px solid #2ebc4f;
+	padding: 20px;
+	margin: 16px 0;
+	margin-left: 25px;
+	width: 378px;
+}
+
+.main-right p{
+	font-size: 12px;
+	margin-left: 25px;
+	width: 378px;
+	color: #24292E;
+}

@@ -1,6 +1,6 @@
 from django.urls import path
-from api.views.views_fbv import company_list, company_detail, vacancy_list, vacancy_detail, company_vacancies
-from api.views.views_cbv import CompanyListAPIView, CompanyDetailAPIView, VacancyListAPIView, VacancyDetailAPIView
+from api.views.views import company_list, company_detail, vacancy_list, vacancy_detail, company_vacancies
+from api.views.CBViews import CompanyListAPIView, CompanyDetailAPIView, VacancyListAPIView, VacancyDetailAPIView
 
 
 urlpatterns = [

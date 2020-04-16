@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "hh-front"
+    }
+  },
+  "defaultProject": "hh-front",
+  "cli": {
+    "analytics": "c3bd929f-d871-43c2-9b2e-b3001c682419"
+  }
 }
